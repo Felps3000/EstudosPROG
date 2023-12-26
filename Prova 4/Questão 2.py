@@ -37,10 +37,10 @@ Entrada     Saída       |   Entrada     Saída       |   Entrada     Saída    
 3                       |                           |                           |   3
 1                       |                           |                           |   5
 3                       |                           |                           |   1
-5                       |                           |
-2                       |                           |
-1                       |                           |
-1                       |                           |
+5                       |                           |                           |
+2                       |                           |                           |
+1                       |                           |                           |
+1                       |                           |                           |
 """
 
 votantes = int(input("Votantes: "))

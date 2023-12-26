@@ -9,11 +9,11 @@ Saída: um valor inteiros e positivo, que representa a soma entre todos os núme
 que o valor N lido na entrada.
 Exemplos de entrada e saída:
 
-Entrada		Entrada		Entrada
-1			10			6
+Entrada | Entrada | Entrada
+1		| 10	  |	6
 
-Saída		Saída		Saída
-0			20			12
+Saída	| Saída   | Saída
+0		| 20	  | 12
 """
 
 entrada = int(input())

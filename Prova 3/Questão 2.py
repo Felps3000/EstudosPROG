@@ -21,13 +21,3 @@ Entrada Saída | Entrada Saída       | Entrada Saída
               |         0           |         0 1
               |         0           |         0
 """
-
-vr = int(input("Informe um valor: "))
-col = 0
-while vr >= 0:
-    col = 0
-    while col <= vr:
-        print(col,end=' ')
-        col += 1
-    print()
-    vr -= 1

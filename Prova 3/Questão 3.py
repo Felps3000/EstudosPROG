@@ -41,38 +41,3 @@ Entrada Saída | Entrada Saída | Entrada Saída | Entrada Saída | Entrada Saí
               | 8             |               |               |
               | 0             |               |               |
 """
-
-n = int(input("Número do Competidor: "))
-qt1 = qt2 = qt3 = qt4 = qt5 = ma = 0
-if n == 0:
-    print(0)
-else:
-    while n != 0:
-        qt = int(input("Quantidade de Tijolos: "))
-        if n == 1:
-            qt1 += qt
-        elif n == 2:
-            qt2 += qt
-        elif n == 3:
-            qt3 += qt
-        elif n == 4:
-            qt4 += qt
-        else:
-            qt5 += qt
-        n = int(input("Numero do Competidor: "))
-    ma = qt1
-    if qt1 >= ma:
-        ma = qt1
-        print(f"1-{ma}")
-    if qt2 > ma:
-        ma = qt2
-        print(f"2-{ma}")
-    if qt3 > ma:
-        ma = qt3
-        print(f"3-{ma}")
-    if qt4 > ma:
-        ma = qt4
-        print(f"4-{ma}")
-    if qt5 > ma:
-        ma = qt5
-        print(f"5-{ma}")

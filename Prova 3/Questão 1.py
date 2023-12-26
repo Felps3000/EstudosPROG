@@ -12,14 +12,3 @@ Exemplos de entrada e saída:
 Entrada Saída | Entrada Saída                   | Entrada Saída
 1       0-    | 10      0-1-1-2-3-5-8-13-21-34- |  5      0-1-1-2-3-
 """
-
-fib1 = 0
-fib2 = c = 1
-n = int(input("Digite um número: "))
-print(f"{fib1}-",end='')
-while c < n:
-    s = fib1 + fib2
-    fib1 = fib2
-    fib2 = s
-    print(f"{fib1}-",end='')
-    c += 1

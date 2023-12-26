@@ -10,7 +10,7 @@ valor N lido na entrada.
 Exemplos de entrada e saída:
 
 Entrada	Saída |	Entrada	Saída |	Entrada Saída
-1       1     |	10		7     |	6       6
+1       1     |	10      7     |	6       6
 """
 
 n = int(input('VALOR: '))

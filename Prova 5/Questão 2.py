@@ -5,10 +5,10 @@ Entrada: um valor inteiro positivo.
 Saída: sequência de valores, relacionados ao valor de entrada, conforme os exemplos.
 Exemplos de entrada e saida:
 
-Entrada		Entrada		Entrada			Entrada
-1			5			12				15
-
-Saída		Saída		Saída			Saída
+Entrada	|	Entrada	|	Entrada		|	Entrada
+1		|	5		|	12			|	15
+        |           |               |
+Saída	|	Saída	|	Saída		|	Saída
 0			0 2 4		0 2 4 6 8 10	0 2 4 6 8 10 12 14
 """
 

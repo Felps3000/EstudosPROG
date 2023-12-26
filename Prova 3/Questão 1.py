@@ -16,10 +16,10 @@ Entrada Saída | Entrada Saída                   | Entrada Saída
 fib1 = 0
 fib2 = c = 1
 n = int(input("Digite um número: "))
-print(f"{fib1}-",end=' ')
+print(f"{fib1}-",end='')
 while c < n:
     s = fib1 + fib2
-    fibl = fib2
+    fib1 = fib2
     fib2 = s
-    print(f"{fib1}-",end=' ')
+    print(f"{fib1}-",end='')
     c += 1

@@ -9,10 +9,10 @@ Saída: um valor intelros e positivo, que representa a quantidade de números da
 valor N lido na entrada.
 Exemplos de entrada e saída:
 
-Entrada		Entrada		Entrada
-1			10			6
-
-Saída		Saída		Saída
+Entrada	|	Entrada	|	Entrada
+1		|	10		|	6
+        |           |
+Saída	|	Saída	|	Saída
 1			7			6
 """
 

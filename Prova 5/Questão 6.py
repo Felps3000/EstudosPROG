@@ -7,10 +7,10 @@ Entrada: um valor inteiro positivo.
 Saída: uma sequencia com todos os números primos menores que o valor informado na entrada.
 Exemplos de entrada e saída:
 
-Entrada		Entrada		Entrada		Entrada		Entrada
-11			8			1			3			6
-
-Saída		Saída		Saída		Saída		Saída
+Entrada	|	Entrada	|   Entrada	|	Entrada	|	Entrada
+11		|	8		|	1		|	3		|	6
+        |           |           |           |
+Saída	|	Saída	|	Saída	|	Saída	|	Saída
 2			2			2			2			2
 3			3						3			3
 5			5						5			5

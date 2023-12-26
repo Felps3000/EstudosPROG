@@ -60,19 +60,21 @@ else:
         else:
             qt5 += qt
         n = int(input("Numero do Competidor: "))
+
     ma = qt1
-    if qt1 >= ma:
-        ma = qt1
-        print(f"1-{ma}")
+
     if qt2 > ma:
         ma = qt2
         print(f"2-{ma}")
-    if qt3 > ma:
+    elif qt3 > ma:
         ma = qt3
         print(f"3-{ma}")
-    if qt4 > ma:
+    elif qt4 > ma:
         ma = qt4
         print(f"4-{ma}")
-    if qt5 > ma:
+    elif qt5 > ma:
         ma = qt5
         print(f"5-{ma}")
+    elif qt1 >= ma:
+        ma = qt1
+        print(f"1-{ma}")

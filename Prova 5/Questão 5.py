@@ -6,11 +6,9 @@ Entrada: um valor inteiro positivo.
 Saída: sequência de valores, relacionados ao valor de entrada, conforme os exemplos.
 Exemplos de entrada e saída:
 
-Entrada	|	Entrada	|	Entrada		|	Entrada
-1		|	5		|	12			|	15
-        |           |               |
-Saída	|	Saída	|	Saída		|	Saída
-1			1 3 5		1 3 5 7 9 11	1 3 5 7 9 11 13 15
+Entrada Saída | Entrada Saída | Entrada Saída        | Entrada Saída
+1       1     | 5       1 3 5 | 12      1 3 5 7 9 11 | 15      1 3 5 7 9 11 13 15
+
 """
 
 entrada = int(input())

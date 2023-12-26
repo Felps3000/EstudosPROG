@@ -21,3 +21,20 @@ Entrada Saída | Entrada Saída | Entrada Saída | Entrada Saída | Entrada Saí
         31    |               |               |
 """
 
+vlr = int(input("Digite um valor: "))
+num = 2
+vlr -= 2
+if vlr > 0:
+    while vlr != 0:
+        div = 1
+        p = 0
+        while div <= num:
+            if (num % div) == 0:
+                p += 1
+            div += 1
+        if p == 2:
+            print(num)
+        num += 1
+        vlr -= 1
+else:
+    print()

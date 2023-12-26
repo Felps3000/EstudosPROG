@@ -5,15 +5,12 @@ exemplos abaixo. Os dois primeiros valores da Série de Fibonacci são 0 e 1 e, 
 seguinte é o resultado da soma dos seus dois antecessores.
 
 Entrada: um valor inteiro positivo N (N >0).
-Saída: um valor intelros e positivo, que representa a quantidade de números da Série de Fibonacci menores que o
+Saída: um valor inteiros e positivo, que representa a quantidade de números da Série de Fibonacci menores que o
 valor N lido na entrada.
 Exemplos de entrada e saída:
 
-Entrada	|	Entrada	|	Entrada
-1		|	10		|	6
-        |           |
-Saída	|	Saída	|	Saída
-1			7			6
+Entrada	Saída |	Entrada	Saída |	Entrada Saída
+1		1     |	10		7     |	6       6
 """
 
 n = int(input('VALOR: '))

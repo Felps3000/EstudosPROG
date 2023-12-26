@@ -15,27 +15,3 @@ Entrada Saída |  Entrada Saída | Entrada Saída
 2             |  7             | 15
 2019          |  2023          | 2000
 """
-
-dia = int(input("Dia: "))
-mes = int(input("Mês: "))
-ano = int(input("Ano: "))
-
-bissexto = 0
-
-if (ano % 4 == 0 and ano % 100 != 0) or (ano % 100 == 0 and ano % 400 == 0):
-    bissexto = 1
-
-if dia <= 31 and mes <= 12:
-    if mes == 2 and bissexto == 1 and dia <= 29:
-        print("sim")
-
-    elif (mes == 4 or mes == 6 or mes == 9 or mes == 11) and (dia <= 30):
-        print("sim")
-
-    elif mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
-        print("sim")
-
-    else:
-        print("não")
-else:
-    print("não")

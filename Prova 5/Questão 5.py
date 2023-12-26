@@ -10,11 +10,3 @@ Entrada Saída | Entrada Saída | Entrada Saída        | Entrada Saída
 1       1     | 5       1 3 5 | 12      1 3 5 7 9 11 | 15      1 3 5 7 9 11 13 15
 
 """
-
-entrada = int(input())
-
-c = 1
-
-while c <= entrada:
-        print(c, end=" ")
-        c += 2

@@ -22,19 +22,3 @@ Entrada Saída | Entrada Saída | Entrada Saída | Entrada Saída | Entrada Saí
 
 
 """
-
-n = int(input('VALOR: '))
-
-pri = 2
-
-if (n > 2):
-    while (pri < n):
-        ini = 1
-        div = 0
-        while (ini <= pri):
-            if (pri % ini == 0):
-                div+=1
-            ini+=1
-        if (div == 2):
-            print (pri)
-        pri+=1

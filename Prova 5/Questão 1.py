@@ -12,22 +12,3 @@ Exemplos de entrada e saída:
 Entrada	Saída |	Entrada	Saída |	Entrada Saída
 1       1     |	10      7     |	6       6
 """
-
-n = int(input('VALOR: '))
-
-c = 1
-f1 =0
-f2 = 1
-fibo = 1
-
-if n == 1:
-
-    print (c)
-
-else:
-    while (fibo < n):
-        fibo = f1 + f2
-        f1 = f2
-        f2 = fibo
-        c+=1
-    print (c)

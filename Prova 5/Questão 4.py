@@ -12,30 +12,3 @@ Exemplos de entrada e saída:
 Entrada Saída | Entrada Saída | Entrada Saída
 1       0     | 10      20    | 6       12
 """
-
-entrada = int(input())
-
-c = 0
-
-n1 = 1
-n2 = 0
-fib = 0
-soma = 0
-
-if entrada == 1:
-    print("0")
-
-else:
-
-    while c < entrada:
-
-        fib = n2 + n1
-        n2 = n1  # está um pouco "enrolado" - poderia ser bem mais direto
-        n1 = fib
-
-        if fib < entrada:
-            soma += fib
-
-        c += 1
-
-    print(soma + 1)

@@ -17,21 +17,3 @@ Entrada  Saída                     | Entrada  Saída
 51792    Horário: 14:23:12         | 1        Horário: 00:00:01
 13.1     Temperatura: 13.1 graus   | 5.9      Temperatura: 5.9 graus
 """
-
-hora = int(input("Hora: "))
-temp = float(input("Temperatura: "))
-
-if hora > 86400:
-    hora -= 86400
-
-horaC = hora // 3600
-
-minuto = hora - (horaC * 3600)
-
-minC = minuto // 60
-
-segundo = ((minC * 60) - minuto) * -1
-
-print(f"Horário: {horaC:02}:{minC:02}:{segundo:02}")
-
-print(f"Temperatura: {temp:.1f} graus")

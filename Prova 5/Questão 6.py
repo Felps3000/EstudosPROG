@@ -1,19 +1,27 @@
 """
-4) Faça um programa para receber do usuário um valor inteiro e positivo. Desenvolva um programa que realiza a
-soma de todos os números da Série de Fibonacci que são menores do que o valor apresentado na entrada,
-conforme os exemplos abaixo. Os dois primeiros valores da Série de Fibonacci são 0 e 1 e, a partir destes, cada
-número seguinte é o resultado da soma dos seus dois antecessores.
+6) Um número primo é aquele que possui exatamente dois divisores: 1 e o próprio número. Construa um programa
+que leia um valor inteiro positivo N e, a partir de estratégias de repetições, mostra os N primeiros números primos
+(não existe número primo negativo!), conforme os exemplos abaixo:
 
-Entrada: um valor inteiro positivo N (N >0).
-Saída: um valor inteiros e positivo, que representa a soma entre todos os números da Série de Fibonacci menores
-que o valor N lido na entrada.
+Entrada: um valor inteiro positivo.
+Saída: uma sequencia com todos os números primos menores que o valor informado na entrada.
 Exemplos de entrada e saída:
 
-Entrada		Entrada		Entrada
-1			10			6
+Entrada		Entrada		Entrada		Entrada		Entrada
+11			8			1			3			6
 
-Saída		Saída		Saída
-0			20			12
+Saída		Saída		Saída		Saída		Saída
+2			2			2			2			2
+3			3						3			3
+5			5						5			5
+7			7									7
+11			11									11
+13			13									13
+17			17
+19			19
+23
+29
+31
 """
 n = int(input('VALOR: '))
 
@@ -28,7 +36,7 @@ if n == 1:
 
 else:
 
-    while (fibo < n):
+    while (c < n):
         fibo = f1 + f2
         f1=f2
         f2 = fibo
